@@ -1,0 +1,12 @@
+
+.mainpanel img{
+    height: 300px;
+    width:500px;
+    margin-left: -150px;
+}
+h1{
+    color:#7760c1;
+    position: relative;
+    top:-200px;
+    left:40px;
+}

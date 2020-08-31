@@ -1,0 +1,44 @@
+
+ .disptab{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ table{
+  border-collapse:separate; 
+  border-spacing:0 15px; 
+ }
+ .disptab th{
+      background-color: #7169CE ;
+      padding: 15px;
+      font-family: "Courier New";
+      font-weight: 500px;
+      color:white;
+      
+  }
+  .disptab td{
+    padding: 0 15px;
+  }
+ .disptab tr{
+    background-color: white;
+    padding:15px;
+    font-family: 'Courier New';
+    color: black;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+ .disptab th:nth-child(2){
+   width: 450px;
+ }
+.disptab th:last-child th{
+  width:70px;
+}
+.disptab td button{
+  width:100px;
+}
+ img {
+       height:150px;
+       width:150px;
+       padding: 15px;
+       border-radius: 35px;
+    }

@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+<head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <link rel="stylesheet" type="text/css" href="./blogpage.css">
+       <link rel="stylesheet" type="text/css" href="./blogcreate.css">
+</head>
+<body> 
+       <div class="container">
+            <div class="sidepanel">
+                 <ul class="ul">
+                     <li class="li"><a href="./Dashboard.php">Dashboard</a></li>
+                     <li class="li"><a href="#">Create blog</a></li>
+                     <li class="li"><a href="./blogview.php">View Blog</a></li>
+                     <li class="li"><a href=".Logout.php">Logout</a></li>
+                 </ul>
+           </div>
+           <div class="blogpanel">
+                       <form action="./blogsave.php" method="POST" enctype="multipart/form-data">
+                              <label>Title:</label>
+                              <input class="title" type="text" name="blogtitle" required/> <br><br>
+                              <label>Description:</label>
+                              <textarea  name="blog" id="text" cols="100" rows="25" placeholder="start blogging......."required></textarea><br><br>
+                              <label>Upload Image:</label>
+                              <input type="file" id="file" name="blogimage" required/><br><br>
+                              <button type="submit" name="createblog" >create blog</button><br>
+                       </form>
+             </div>
+        </div>
+<script>
+</script>
+</body>
+</html>
+

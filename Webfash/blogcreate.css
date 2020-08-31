@@ -1,0 +1,29 @@
+.blogpanel{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    color:black;
+    font-weight: 500;
+    font-family:"Courier New";
+}
+input{
+    font-family: "Courier New";
+}
+.title{
+    width: 300px;
+}
+textarea{
+    resize:none;
+}
+button{
+    background-color: #7760c1;
+    height: 30px;
+    width:150px;
+    border: none;
+    color:white;
+    font-family: "Courier New";
+    font-size: 20px;
+}
